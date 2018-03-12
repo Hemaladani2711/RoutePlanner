@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.yagnikbhatt.routeplanner.signup">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SignUp"
+        android:id="@+id/sign"
+        android:layout_centerHorizontal="true"
+        android:textSize="30sp"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sign"
+        android:id ="@+id/lay1"
+        tools:ignore="InvalidId">
+
+        <TextView
+            android:layout_width="150sp"
+            android:layout_height="wrap_content"
+            android:text="Email Id"
+            />
+        <EditText
+            android:layout_width="150sp"
+            android:layout_height="wrap_content"
+            android:id="@+id/emialid"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lay1">
+
+        <TextView
+            android:layout_width="150sp"
+            android:layout_height="wrap_content"
+            android:text="Password"
+            />
+        <EditText
+            android:layout_width="150sp"
+            android:layout_height="wrap_content"
+            android:id="@+id/password"
+            />
+        <Button
+            android:id="@+id/signup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SignUp"
+            android:layout_below="@id/password"/>
+    </LinearLayout>
+
+</RelativeLayout>

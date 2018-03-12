@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "856981313025",
+    "firebase_url": "https://route-planner-90.firebaseio.com",
+    "project_id": "route-planner-90",
+    "storage_bucket": "route-planner-90.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:856981313025:android:f3fa9bc3313fbbf2",
+        "android_client_info": {
+          "package_name": "com.example.yagnikbhatt.routeplanner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "856981313025-o98l7dcc8l8bv1u7db4puarsq068fqmu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlfW5sbYN9jMTHKtTBm3qClmQO3nTIej4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

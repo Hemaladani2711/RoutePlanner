@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+
+
+    >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+        <CheckBox
+            android:id="@+id/chkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:id="@+id/layoutDescription"
+        android:clickable="true"
+
+        >
+
+    <TextView
+        android:id="@+id/txtDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Text Here"
+        android:layout_marginLeft="20dp"
+        android:layout_gravity="center_horizontal"
+        android:clickable="true"
+        android:maxLines="3"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:gravity="right"
+        >
+        <TextView
+            android:id="@+id/txtDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Text Here"
+            android:maxLines="3"
+            android:textStyle="bold"
+
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher"
+            android:id="@+id/imgPriority"
+            android:clickable="true"
+            android:outlineProvider="paddedBounds"
+            android:elevation="6dp"/>
+
+    </LinearLayout>
+</LinearLayout>
